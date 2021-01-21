@@ -1,0 +1,63 @@
+html{
+  width: 415px!important;
+  background: #6b80ce; /* default white */
+}
+a .article{
+    color:white!important;
+    /*DEFAULT */
+    /* color:black!important; */
+    /*DEFAULT */
+}
+#note{
+    color: white!important;
+}
+#note a{
+    color: white!important;
+}
+body {
+    font-family: verdana;
+}
+.article {
+    height: 60px;
+    border-bottom: 1px solid #ececec;
+    margin-top: 10px;
+}
+.left {
+    height: 100%;
+    float: left;
+}
+.left img {
+    height: 100%!important;
+    width: 100px!important;
+}
+.mt-9{
+  margin-top: 9px;
+}
+.ml-20 {
+    margin-left: 10px;
+}
+.left {
+    height: 100%;
+    float: left;
+}
+.title span {
+    font-size: 13px;
+}
+.time span {
+    font-size: 10px;
+    font-weight: 200;
+    margin-top: 3px;
+}
+#note{
+    font-size: 11px;
+    float: right;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-right: 5px;
+}
+button#devamke {
+    margin-top: 17px;
+    width: 100%!important;
+    height: 29px;
+    border: none;
+}

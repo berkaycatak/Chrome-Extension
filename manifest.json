@@ -1,0 +1,28 @@
+{
+  "name": "Sosyopatlar",
+  "version": "1.1",
+  "manifest_version": 2,
+  "background":{
+    "scripts": ["background.js"]
+  },
+  "description": "Sosyopatlar web sitesi son haberleri.",
+  "browser_action": {
+    "default_icon": {
+      "16": "images/icon-16x16.png",
+      "32": "images/icon-32x32.png",
+      "48": "images/icon-48x48.png",
+      "128": "images/icon-128x128.png"
+    },
+    "default_popup" : "articles.html"
+  },
+  "permissions": [
+    "https://sosyopatlar.com/*"
+    ],
+  "icons" : {
+    "16": "images/icon-16x16.png",
+    "48": "images/icon-48x48.png",
+    "128": "images/icon-128x128.png"
+  }
+
+
+}
